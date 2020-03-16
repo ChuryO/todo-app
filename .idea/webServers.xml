@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="25a19672-7ea7-4c32-be92-1053ab568c1e" name="main_FTP" url="http://s34.zenbox.pl">
+        <fileTransfer host="s34.zenbox.pl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4af78c05-dafe-4ce2-9572-3f69d497fbd1" name="todo-app" url="http://s34.zenbox.pl">
+        <fileTransfer host="s34.zenbox.pl" port="21" rootFolder="/public_html/todo-app">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="df42ab05-35fd-4b77-b7f1-a790525a13d5" name="swapi-app" url="http://s34.zenbox.pl">
+        <fileTransfer host="s34.zenbox.pl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
